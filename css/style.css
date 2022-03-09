@@ -1,0 +1,25 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.myMargin{
+    margin: 25px;
+}
+
+.container{
+ margin-bottom: 5px;
+}
+
+.imgCir{
+ width: 18%;
+margin-left: 18px;
+
+   
+}
+
+.signUp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
