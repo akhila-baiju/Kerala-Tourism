@@ -96,7 +96,7 @@
     </div>
   </div>
   
-  <div class="container-fluid col-3"  >
+  <div class="container-fluid col-3">
       <h3 style="text-align: center; ">Login</h3>
     <div class="row g-3 align-items-center">
       <div class="col-auto">
@@ -104,7 +104,7 @@
       </div>
       <div class="col-auto">
         <input type="text" id="eid" class="form-control" aria-describedby="passwordHelpInline">
-        <label for="email error" class="col-form-label" id="emailerr"></label>
+        <label for="email error" class="col-form-label" id="eiderror"></label>
       </div>
       </div><br>
  <div class="row g-3 align-items-center">
@@ -112,11 +112,12 @@
     <label for="inputPassword6" class="col-form-label">Password</label>
   </div>
   <div class="col-auto">
-    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+    <input type="password" id="pass" class="form-control" aria-describedby="passwordHelpInline">
+    <label for="password error" class="col-form-label" id="pwderror"></label>
   </div>
   <div class="col-12" style="text-align: center;">
-    <button type="submit" class="btn btn-primary" onclick="validate()" >Sign in</button>
-  </div>
+    <button type="submit" class="btn btn-primary" onclick="test1(), test2()" >Sign in</button>
+ </div>
 </div>
   <br>
 <p class="signUp"><a href="./newAccount.html">New User ? Sign Up Here</a> </p>
@@ -141,7 +142,7 @@
              <a class="text-white" href="./index.html">Official Website for Kerala</a>
           </div>
      </footer>
-  <!-- Footer End    -->
+  !-- Footer End    -->
 
 
 </body>
