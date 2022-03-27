@@ -116,7 +116,7 @@ function StrengthChecker() {
     } else {
         error.style.backgroundColor = 'red';
         error.textContent = '   Weak   ';
-       // return false;
+        return false;
     }
 }
 
