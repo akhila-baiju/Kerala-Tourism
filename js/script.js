@@ -46,6 +46,8 @@ function test2()
     else if(passexp.test(password.value))
     {
         pwdmiss.innerHTML="";
+        alert("Success Login");
+        document.location.reload() ;
         return true;
     }
     else{
